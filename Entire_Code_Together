@@ -4,11 +4,11 @@
 #include <cstdlib>
 
 
-/* =================
-
-CUSTOM EXCEPTION CLASS
-
-================= */
+//
+//
+// CUSTOM EXCEPTION CLASS
+//
+//
 
 class Invalid_Input: public std::exception{                                                         //NOTE: This is how to INHERIT. This class inherits everything public from exception. 
 public: 
@@ -85,11 +85,11 @@ void exceptionHandling (int &variable, std::string t){                          
 
 
 
-/* =================
-
-GAME CLASS
-
-================= */
+//
+//
+// GAME CLASS
+//
+//
 
 class game{
 private:
@@ -339,11 +339,12 @@ public:
 
 };  
 
-/* =================
 
-MAIN FUNCTION
-
-================= */
+//
+//
+// MAIN FUNCTION
+//
+// 
 
 
 int main(){
